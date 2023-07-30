@@ -12,15 +12,14 @@ module.exports = {
     fallbackNS: 'common',
     serializeConfig: false,
 
-    // ???
+    reloadOnPrerender: process.env.NODE_ENV === 'development',
+
     use: [MultiLoadBackendAdapter, new HMRPlugin({ client: true })],
     // use: [MultiLoadBackendAdapter],
 
     backend: {
       backend: HttpBackend,
       backendOption: {
-        expirationTime: 5 * 1000,
-        reloadInterval: 15000,
         loadPath: 'http://localhost:8080/locales?lng={{lng}}&ns={{ns}}',
       }
     },

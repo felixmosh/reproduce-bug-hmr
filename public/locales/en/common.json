@@ -22,7 +22,7 @@
         "link": "https://locize.com/blog/next-i18n-static/"
       }
     },
-    "welcome": "COMMON EN",
+    "welcome": "COMMON ENxx",
     "trySomethingStick": "fallback common EN",
     "tougher message, with comma": "it works common EN",
     "onlyCommonHas": "onlyCommonHasEN",
