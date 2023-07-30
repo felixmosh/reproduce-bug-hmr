@@ -20,6 +20,7 @@ module.exports = {
       backend: HttpBackend,
       backendOption: {
         expirationTime: 5 * 1000,
+        reloadInterval: 15000,
         loadPath: 'http://localhost:8080/locales?lng={{lng}}&ns={{ns}}',
       }
     },
