@@ -9,7 +9,7 @@ export default function Home(props) {
 const router = useRouter();
 const changeTo = router.locale === 'en' ? 'de' : 'en'
 
-const { t:translate } = useTranslation(['ns1','common']);
+const { t: translate } = useTranslation(['ns1','common']);
 
 return(
     <div>
