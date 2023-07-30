@@ -1,0 +1,33 @@
+{
+  "name": "all-in-one",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "eslint": "8.30.0",
+    "eslint-config-next": "^13.4.12",
+    "i18next": "^23.3.0",
+    "i18next-chained-backend": "^4.4.0",
+    "i18next-http-backend": "^2.2.1",
+    "i18next-localstorage-backend": "^4.1.1",
+    "i18next-multiload-backend-adapter": "^2.2.2",
+    "next": "^13.4.12",
+    "next-i18next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "i18next-hmr": "^2.0.1",
+    "postcss": "^8.4.20",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
